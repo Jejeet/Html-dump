@@ -1,39 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML EXERCISE</title>
-</head>
-<body>
-    <h1>This is your first HTML page!</h1>
-    <h3>Seems like things are going preety</h3>
-    <h6>Let's add a recipe for some delicious chocolate chip cookies</h6>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My profile</title>
+    <style>
+      * {
+        border: border box;
+        margin: 0;
+        padding: 0;
+      }
 
-  <p>We're going to borrow a nice picture from General Mills</p>
-  <img src="https://www.shutterstock.com/shutterstock/photos/2028692483/display_1500/stock-photo-peanut-butter-cookies-stack-on-wooden-cutting-board-traditional-american-dessert-nutrition-snack-2028692483.jpg" height=300 width=300>
+      body {
+        margin: 2rem;
+        padding: auto;
+        /* border: 2px dotted; */
+        background-color: white;
+      }
 
-  <p>
-    Here is what the recipe calls for
-  </p>
-  <ul><b>Ingredients</b>(probably not right...)
-    <li>6 Eggs</li>
-    <li>2 Cups of flour</li>
-    <li>2 Tablespoons of vanilla extract</li>
-    <li>2 Teaspoons of baking powder</li>
-    <li>1 Cup of sugar</li>
-  </ul>
+      header {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+        text-align: center;
+      }
+      .first {
+        color: green;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border: 1px solid green;
+        border-radius: 20%;
+        border-width: 20px;
+      }
+      .second {
+        color: red;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border: 1px solid red;
+        border-radius: 20%;
+        border-width: 20px;
+        /* outline:3px red; */
+      }
+      .third {
+        color: blue;
+        font-size: 14px;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border: 1px solid blue;
+        border-radius: 20%;
+        border-width: 20px;
+        outline: 3px red;
+      }
+      th,
+      td {
+        text-align: center;
+        border: 2px solid;
+      }
+      thead {
+        height: 2rem;
+      }
+      h1 {
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 14px;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="first">
+      <header>
+        <!-- first section -->
+      </header>
 
-  <ol><b>Ingredients</b>(may or may not be correct)
-    <li>Add eggs, flour and vanilla extract and mix</li>
-    <li>Combine with sugar and baking powder and stir</li>
-    <li>Eat half the cookie batter because it is delicious</li>
-    <li>Take the rest of the cookie batter and make cookies</li>
-    <li>Bake at 350 for 25 minutes</li>
-    <li>Enjoy!</li>
-  </ol>
-  <hr>
-  Oh you don't trust us? You want to see the actual recipe? You can view it <a href="#">here</a>
-</body>
+      <main>
+        <p>
+          My name is <b> Adewumi Owonikoko </b>. I am a final year computer
+          science student and a tech enthusiast. I am very passionate about
+          building products that solves real life user problems. This drive
+          motivates me to choose product development as my concentration. My
+          intuitive capability in taking initiative has helped me in various
+          position of responsibilities like being the
+          <b>Deputy-coordinator</b> of the National Association of Computing
+          Student in my region; <i>SouthWest</i>.
+        </p>
+      </main>
+    </section>
+
+    <section class="second">
+      <header>
+        <!-- second section -->
+      </header>
+      <main>
+        <p>
+          Here at stutern, I have learnt the use of HTML in webpage development
+          and the usefulness of CSS along side with it. HTML being a Hypertext
+          Markup Language that judges it content by its element is just a
+          structure while CSS is a style sheet that beautifies the webpage.
+          <b>CSS stands for Cascading style sheets</b>HTML and CSS works hand in
+          hand in the production of a beautiful static website. Different ways
+          of adding a CSS page to HTML page are: <br>
+          <i>
+            Inline styling: styling the element directly inside its tag. Example
+            of how it is being add is: "style=" color: beige; <br> Internal styling:
+            Styling the HTML page directly from the head. It is usually inside
+            the head <br> External styling: Styling the HTML page in an external
+            file and linking it to the HTML page through the head using the link
+            tag and a reference.
+          </i>
+        </p>
+      </main>
+    </section>
+
+    <section>
+      <header>
+        <!-- third section -->
+      </header>
+      <h1>Difference between padding, margin and border</h1>
+      <table class="third">
+        <thead>
+          <tr>
+            <th>Padding</th>
+            <th>Margin</th>
+            <th>Borders</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <b>Padding </b> is the space between an
+              <i>element's border and the element's content</i>
+            </td>
+            <td>
+              <b>Margin </b> is the space around <i> an element's border</i>
+            </td>
+            <td>
+              <b>Border</b> is the perimeter of a box.It houses the
+              <i> padding and the context box</i>.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
 </html>
