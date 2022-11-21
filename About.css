@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+   gap: 1rem;
+   padding-right: 1.5rem;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.about{
+ 
+    width: 85%;
+    margin: auto;
+    gap: 3rem;
+}
+img{
+    width: 25rem;
+}

@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+   gap: 1rem;
+   padding-right: 1.5rem;
+}
+li{
+    list-style-type: none;
+}
+.profile{
+    display: flex;
+   gap: 3rem;
+}
+ div{
+    display:inline-block;
+}
+img{
+    width: 25rem;
+}
+main{
+    width: 85%;
+    margin: auto;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.my__career{
+    display: flex;
+    gap: 3rem;
+}
+.career li{
+    background-color: aliceblue;
+    height: 2.5rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* align-content: center; */
+    border: 1px solid black;
+    border-radius: 0.6rem;
+}
+body{
+    background-color: rgba(159, 195, 195,0.5);
+}
